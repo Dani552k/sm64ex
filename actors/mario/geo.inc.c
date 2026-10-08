@@ -49,7 +49,7 @@ const GeoLayout mario_002_switch_opt0_001_switch_opt0_000_switch_opt1_switch_fac
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout mario_armature_002_switch_option_002[] = {
+const GeoLayout mario_armature_002_switch_option[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
@@ -159,7 +159,7 @@ const GeoLayout mario_002_switch_opt0_001_switch_opt1_000_switch_opt1_switch_fac
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout mario_002_switch_opt0_001_switch_opt1_jump_mario_armature_002_switch_option_002[] = {
+const GeoLayout mario_002_switch_opt0_001_switch_opt1_jump_mario_armature_002_switch_option[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
@@ -306,7 +306,7 @@ const GeoLayout mario_002_switch_opt0_001_switch_opt1[] = {
 											GEO_BRANCH(1, mario_002_switch_opt0_001_switch_opt1_000_switch_opt0_000_switch_001_opt7),
 										GEO_CLOSE_NODE(),
 									GEO_CLOSE_NODE(),
-									GEO_BRANCH(1, mario_002_switch_opt0_001_switch_opt1_jump_mario_armature_002_switch_option_002),
+									GEO_BRANCH(1, mario_002_switch_opt0_001_switch_opt1_jump_mario_armature_002_switch_option),
 								GEO_CLOSE_NODE(),
 								GEO_TRANSLATE_ROTATE(LAYER_FORCE, 142, -51, -126, 15, -33, -133),
 								GEO_OPEN_NODE(),
@@ -418,7 +418,7 @@ const GeoLayout mario_002_switch_opt0_001_switch_opt1[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout mario_002_switch_opt0_001_switch_opt2_jump_mario_armature_002_switch_option_002[] = {
+const GeoLayout mario_002_switch_opt0_001_switch_opt2_jump_mario_armature_002_switch_option[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
@@ -502,7 +502,7 @@ const GeoLayout mario_002_switch_opt0_001_switch_opt2[] = {
 											GEO_CLOSE_NODE(),
 										GEO_CLOSE_NODE(),
 									GEO_CLOSE_NODE(),
-									GEO_BRANCH(1, mario_002_switch_opt0_001_switch_opt2_jump_mario_armature_002_switch_option_002),
+									GEO_BRANCH(1, mario_002_switch_opt0_001_switch_opt2_jump_mario_armature_002_switch_option),
 								GEO_CLOSE_NODE(),
 								GEO_TRANSLATE_ROTATE(LAYER_FORCE, 142, -51, -126, 15, -33, -133),
 								GEO_OPEN_NODE(),
@@ -614,7 +614,7 @@ const GeoLayout mario_002_switch_opt0_001_switch_opt2[] = {
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };
-const GeoLayout mario_002_switch_opt0_001_switch_opt3_jump_mario_armature_002_switch_option_002[] = {
+const GeoLayout mario_002_switch_opt0_001_switch_opt3_jump_mario_armature_002_switch_option[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
 		GEO_SWITCH_CASE(0, geo_switch_mario_eyes),
@@ -698,7 +698,7 @@ const GeoLayout mario_002_switch_opt0_001_switch_opt3[] = {
 											GEO_CLOSE_NODE(),
 										GEO_CLOSE_NODE(),
 									GEO_CLOSE_NODE(),
-									GEO_BRANCH(1, mario_002_switch_opt0_001_switch_opt3_jump_mario_armature_002_switch_option_002),
+									GEO_BRANCH(1, mario_002_switch_opt0_001_switch_opt3_jump_mario_armature_002_switch_option),
 								GEO_CLOSE_NODE(),
 								GEO_TRANSLATE_ROTATE(LAYER_FORCE, 142, -51, -126, 15, -33, -133),
 								GEO_OPEN_NODE(),
@@ -910,7 +910,7 @@ const GeoLayout mario_geo[] = {
 																	GEO_BRANCH(1, mario_002_switch_opt0_001_switch_opt0_000_switch_opt0_000_switch_001_opt7),
 																GEO_CLOSE_NODE(),
 															GEO_CLOSE_NODE(),
-															GEO_BRANCH(1, mario_armature_002_switch_option_002),
+															GEO_BRANCH(1, mario_armature_002_switch_option),
 														GEO_CLOSE_NODE(),
 														GEO_TRANSLATE_ROTATE(LAYER_FORCE, 142, -51, -126, 15, -33, -133),
 														GEO_OPEN_NODE(),
